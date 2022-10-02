@@ -5,6 +5,5 @@ Repository for WEB335 WhatABook project
 <ul>
   <li>Patrick Wolff</li>
   <li>Kailee Stephens</li>
-  <li>Anita Taylor</li>
 </ul>
   
