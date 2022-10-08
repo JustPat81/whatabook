@@ -1,0 +1,42 @@
+
+{
+    "books": [
+      {
+        "title": "Fairy Tale",
+        "genre": "Horror",
+        "author": "Stephen King",
+        "bookId": "1668002175"
+      },
+      {
+        "title": "Infinite Jest",
+        "genre": "Fiction",
+        "author": "David Foster Wallace",
+        "bookId": "0316920045"
+      },
+      {
+        "title": "Dinners with Ruth",
+        "genre": "Memoir",
+        "author": "Nina Totenberg",
+        "bookId": "1982188081"
+      },
+      {
+        "title": "The Quarry Girls",
+        "genre": "Thriller",
+        "author": "Jess Lourey",
+        "bookId": "1542034299" 
+      },
+      {
+        "title": "Fire & Blood",
+        "genre": "Fantasy",
+        "author": "George R.R. Martin",
+        "bookId": "1524796301"
+      },
+      {
+        "title": "The Year of the Puppy",
+        "genre": "Non-Fiction",
+        "author": "Alexandra Horowitz",
+        "bookId": "0593298004"
+      }
+    ]
+  }
+

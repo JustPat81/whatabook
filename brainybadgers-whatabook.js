@@ -1,7 +1,7 @@
 /* =========================================
 * Title: brainybadgers-whatabook.js
 * Authors: Patrick Wolff, Kailee Stephens
-* Date: 27 September 2022
+* Date: 9 October 2022
 * Description: Queries for WhatABook project
 * ==========================================
 */
@@ -206,3 +206,34 @@ db.books.find({ bookId: "0593298004" });
 
 // Display a wishlist by customerId.
 db.customers.find({ customerId: "1002" });
+
+// Add a book to a customer’s wishlist.
+db.customers.update(
+  { customerId: "1001" },
+  {
+    $push: {
+      wishlistItems: {
+        title: "Dinners with Ruth",
+        genre: "memoir",
+        author: "Nina Totemberg",
+        bookId: "1982188081",
+      },
+    },
+  }
+);
+
+// Remove a  book from a customer’s wishlist.
+db.customers.find({ customerId: "1001" });
+db.customers.update(
+  { customerId: "1001" },
+  {
+    $pull: {
+      wishlistItems: {
+        title: "Dinners with Ruth",
+        genre: "memoir",
+        author: "Nina Totemberg",
+        bookId: "1982188081",
+      },
+    },
+  }
+);

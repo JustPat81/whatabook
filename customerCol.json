@@ -1,0 +1,61 @@
+{
+    "customers": [
+      {
+        "customerId": "1000",
+        "firstName": "Carl",
+        "lastName": "Winslow",
+        "wishlistItems": [
+            {
+                "title": "Fairy Tale",
+                "genre": "Horror",
+                "author": "Stephen King",
+                "bookId": "1668002175"
+            },
+            {
+                "title": "Infinite Jest",
+                "genre": "Fiction",
+                "author": "David Foster Wallace",
+                "bookId": "0316920045" 
+          }
+        ]
+      },
+      {
+        "customerId": "1001",
+        "firstName": "Patricia",
+        "lastName": "Anderson",
+        "wishlistItems": [
+            {
+                "title": "Dinners with Ruth",
+                "genre": "Memoir",
+                "author": "Nina Totenberg",
+                "bookId": "1982188081"
+            },
+            {
+                "title": "The Quarry Girls",
+                "genre": "Thriller",
+                "author": "Jess Lourey",
+                "bookId": "1542034299" 
+          }
+        ]
+      },
+      {
+        "customerId": "1002",
+        "firstName": "Robin",
+        "lastName": "Shanahan",
+        "wishlistItems": [
+            {
+                "title": "Fire & Blood",
+                "genre": "Fantasy",
+                "author": "George R.R. Martin",
+                "bookId": "1524796301"
+            },
+            {
+                "title": "The Year of the Puppy",
+                "genre": "Non-Fiction",
+                "author": "Alexandra Horowitz",
+                "bookId": "0593298004" 
+          }
+        ]
+      }
+    ]
+  }
